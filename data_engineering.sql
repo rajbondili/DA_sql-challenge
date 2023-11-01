@@ -13,7 +13,7 @@ CREATE DATABASE sql_challenge_db
 	 
 ALTER ROLE postgres IN DATABASE sql_challenge_db
       SET "DateStyle" TO 'MDY';
-	 
+----------------------------------------------------------------	 
 --Drop tables if already exists in the schema
 DROP TABLE IF EXISTS departments CASCADE;
 DROP TABLE IF EXISTS dept_emp CASCADE;
