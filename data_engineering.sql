@@ -21,8 +21,7 @@ DROP TABLE IF EXISTS dept_manager CASCADE;
 DROP TABLE IF EXISTS employees CASCADE;
 DROP TABLE IF EXISTS salaries CASCADE;
 DROP TABLE IF EXISTS titles CASCADE;
-
-
+--------------------------------------------------------
 --creating table departments:
 CREATE TABLE departments(dept_no VARCHAR(10) PRIMARY KEY,
                          dept_name VARCHAR(20) NOT NULL);
